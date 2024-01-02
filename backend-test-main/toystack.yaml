@@ -1,0 +1,21 @@
+name: Toystack
+version: 0.1
+env_variables:
+  DB_USER_NAME: postgres
+  DB_NAME: postgres
+  DB_PASSWORD: 123123ADSSD
+  DB_HOST: "test-db-toystack.123123123.ap-south-1.rds.amazonaws.com"
+  DB_PORT: "5432"
+  AWS_S3_BUCKET_STATIC_FILES_BUCKET_KEY: "AASASSASASASAS"
+  AWS_S3_SECRET_KEY_ID_STATIC_FILES: "ASASA!#@!@!@"
+  AWS_S3_BUCKET_URL: "12312312312.cloudfront.net"
+  AWS_S3_BUCKET_NAME: "test-bucket"
+  TOYSTACK_DEPLOYMENTS_DB_USER_NAME: postgres
+  TOYSTACK_DEPLOYMENTS_DB_NAME: postgres
+  TOYSTACK_DEPLOYMENTS_DB_PASSWORD: 123123123123AASSD
+  TOYSTACK_DEPLOYMENTS_DB_HOST: "test-db-toystack.123123123.ap-south-1.rds.amazonaws.com"
+  TOYSTACK_DEPLOYMENTS_DB_PORT: "5432"
+port: 8080
+scheme: https
+node-type: t2.xlarge
+provision-db: pg
